@@ -8,17 +8,45 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  padding: 100px 0 0 0;
+  padding: 140px 0 0 0;
 }
 
+#search-bar {
+  width: 500px;
+  border: 0px;
+}
 .search-bar {
-  margin: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 28px;
+  height: 42px;
+  width: 580px;
+  border: 1px solid #dfe1e5;
+  border-radius: 25px;
+}
+
+.search-bar:hover {
+  box-shadow: 0px .5px 4px #D8D8D8;
 }
 
 .button-container {
-  margin: 30px;
+  margin: 22px;
 }
 
 .button {
   margin: 5px;
+  border: 0px;
+  height: 36px;
+  color: rgba(0, 0, 0, .5);
+  background-color: rgb(242, 242, 242);
+  font-size: 14px;
+  padding: 0 16px;
+  border-radius: 5%;
+}
+
+.button:hover {
+  color: rgba(0, 0, 0, .8);
+  background-color: rgba(242, 242, 242, .7);
+  border: 1px solid rgba(0, 0, 0, .2);
 }
