@@ -10,3 +10,15 @@
   position: relative;
   padding: 100px 0 0 0;
 }
+
+.search-bar {
+  margin: 15px;
+}
+
+.button-container {
+  margin: 30px;
+}
+
+.button {
+  margin: 5px;
+}
